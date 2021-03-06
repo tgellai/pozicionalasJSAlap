@@ -1,0 +1,10 @@
+console.log("konzolra írunk");
+document.write("Heló világ a sectionben.");
+document.getElementById("a").value = 2;
+document.getElementById("b").value = 3;
+var valtozoA = document.getElementById("a").value;
+var valtozoB = document.getElementById("b").value;
+document.write("<p>Első változó" + valtozoA + "</p>");
+document.write("<p>Első változó" + valtozoB + "</p>");
+var osszeg = Number(valtozoA) + Number(valtozoB);
+document.write("<p>Az összeg: " + osszeg + "</p>");
